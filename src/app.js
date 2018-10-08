@@ -3,12 +3,8 @@ import ReactDOM from 'react-dom';
 
 import 'normalize.css/normalize.css';
 import './styles/style.scss';
+import WeatherApp from './components/WeatherApp';
 
-const template = (
-  <div>
-    Some sample text
-  </div>
-);
 
 const appRoot = document.querySelector('#root');
-ReactDOM.render(template, appRoot);
+ReactDOM.render(<WeatherApp />, appRoot);

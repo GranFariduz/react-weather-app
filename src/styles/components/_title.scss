@@ -1,0 +1,21 @@
+.title-block {
+  background: linear-gradient(135deg, $purple 0%, $light-red 100%);
+  padding: $l-size;
+  border-top-right-radius: $s-size;
+  border-top-left-radius: $s-size;
+}
+
+.title-block__title {
+  color: white;
+}
+
+.title-block__title--type {
+  font-family: $spartan;
+  letter-spacing: 1.5px;
+}
+
+.title-block__subtitle {
+  font-weight: 300;
+  color: white;
+}
+

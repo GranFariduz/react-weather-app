@@ -1,0 +1,36 @@
+.input-block {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.input-block__city {
+  flex-grow: 1;
+  font-family: $de-font;
+  font-size: $m-size + 5;
+  border: none;
+  border-bottom: 1px solid $purple;
+  padding: $s-size;
+  margin: $s-size;
+  color: $purple;
+}
+
+.input-block__button {
+
+  border: none;
+  margin: $s-size 0 $s-size $s-size;
+  background-color: $light-red;
+  border-radius: $s-size - 2;
+  color: white;
+  font-family: $de-font;
+  font-size: $m-size + 8;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: $dark-red;
+  }
+
+}
